@@ -1,0 +1,42 @@
+h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#test1{
+    margin-right: 5px;
+    grid-area: taakstraf;
+    background-color: red;
+}
+
+#test2{
+    margin-left: 5px;
+    grid-area: gevangenis;
+    background-color: black;
+}
+
+#test3{
+    margin-top: 10px;
+    grid-area: main;
+    background-color: blue;
+}
+
+#test4{
+    grid-area: footer;
+    background-color: brown;
+}
+
+#mainContainer{
+    
+    margin-top: 10%;
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas: 
+        "header header header header"
+        "taakstraf taakstraf gevangenis gevangenis"
+        "taakstraf taakstraf gevangenis gevangenis"
+        "main main main main"
+        "footer footer footer footer";
+}

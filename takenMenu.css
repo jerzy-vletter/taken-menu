@@ -3,36 +3,46 @@ h1{
     margin-bottom: 0%;
 }
 
-#test1{
+#takenMenu{
+    grid-area: header;
+    text-align: center;
+}
+
+#taakstraf{
     margin-right: 5px;
     grid-area: taakstraf;
-    background-color: red;
+    text-align: center;
 }
 
-#test2{
+#gevangenis{
     margin-left: 5px;
     grid-area: gevangenis;
-    background-color: black;
+    text-align: center;
 }
 
-#test3{
+#main{
     margin-top: 10px;
     grid-area: main;
-    background-color: blue;
+    text-align: center;
 }
 
-#test4{
+#footer{
     grid-area: footer;
-    background-color: brown;
+    text-align: center;
 }
 
 #mainContainer{
-    
-    margin-top: 10%;
+    margin-top: 2%;
     margin-left: 25%;
+    width: fit-content;
+    border: 25px;
+    border-style: solid;
+    border-color: #002c53;
+    background-color: black;
+    color: white;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-rows: 50px 100px 200px 300px 50px;
     grid-template-areas: 
         "header header header header"
         "taakstraf taakstraf gevangenis gevangenis"
